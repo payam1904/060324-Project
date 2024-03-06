@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+#hesec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/partials/images/header-images/Human-Head-in-Code.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+}
+
+.hebx {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(2, 300px);
+    gap: 100px;
+    place-items: center;
+    justify-content: center;
+}
+
+.hebx-a {
+    text-decoration: none;
+    background-color: hsla(0, 0%, 0%, 0.6);
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+
+.hebx-it {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 5px 3px hsla(0, 0%, 0%, 0.6);
+}
+
+.hebx-it a {
+    background-color: indianred;
+    width: 100%;
+    height: 100%;
+}
+
+.hebx-it:hover {
+    background-color: hsla(0, 0%, 100%, 0.8);
+    box-shadow: 0 0 10px 7px hsla(0, 0%, 0%, 0.6);
+    transform: scale(1.02);
+    transition: 0.2s;
+    cursor:help;
+}
+.hebx-it1 {
+    background-color: rgba(172, 229, 255, 0.8);
+    background-image: url('/partials/images/header-images/css-img.png');
+}
+.hebx-it2 {
+    background-color: rgba(255, 227, 156, 0.8);
+    background-image: url('/partials/images/header-images/html-img.png');
+}
+.hebx-it3 {
+    background-color: rgba(183, 255, 229, 0.8);
+    background-image: url('/partials/images/header-images/python-img.png');
+}
+.hebx-it4 {
+    background-color: rgba(233, 255, 229, 0.8);
+    background-image: url('/partials/images/header-images/js-img2.png');
+}
+
+.hebx-pph {
+    background-image: url('/partials/images/header-images/me.png');
+    background-color: rgb(215, 215, 215);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    position: absolute;
+    left: auto;
+    top: auto;
+    box-shadow: 0 0 10px 7px hsla(0, 0%, 0%, 0.6);
+}

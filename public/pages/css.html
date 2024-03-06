@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    <link rel="stylesheet" href="/public/styles/sub-style.css">
+    <link rel="stylesheet" href="/public/styles/navbar-style.css">
+    <link rel="stylesheet" href="/public/styles/footer.css">
+
+</head>
+
+
+<body>
+
+    <nav class="navbar">
+        <ul class="navbar-ul">
+            <a class=" navbar-ulli" href="/index.html">
+                Home
+            </a>
+            <a class=" navbar-ulli" href="/public/pages/html.html">
+                HTML
+            </a>
+            <a class=" navbar-ulli" href="/public/pages/css.html">
+                CSS
+            </a>
+            <a class=" navbar-ulli" href="/public/pages/python.html">
+                Python
+            </a>
+            <a class=" navbar-ulli" href="/public/pages/js.html">
+                JS
+            </a>
+        </ul>
+        <div class="search-box">
+            <button type="submit">Search</button>
+            <input type="text" name="search" class="srcinput" placeholder="Search">
+        </div>
+    </nav>
+
+    <section class="mainsec">
+        <div style="text-align: center; width: 100%;">
+            <img style="width:80%; min-width: 200px; max-width: 300px;" src="/partials/images/header-images/css-img.png"
+                alt="CSS Logo" class="logo">
+        </div>
+        <div class="exsec">
+            <h1>Introduction to CSS</h1>
+            <p style="text-align: justify;">CSS stands for Cascading Style Sheets. It is a style sheet language
+                used for describing the look and
+                formatting of a document written in a markup language. It is used to style web pages written in HTML
+                and
+                XHTML, but can also be applied to any kind of XML document, including plain XML, SVG and XUL.</p>
+            <div class="exsec-btll">
+                <button class="btll btll-it1" onclick="scrolToTarget('.hissec')">History</button>
+                <button class="btll btll-it2" onclick="scrolToTarget('.devsec')">Development</button>
+                <button class="btll btll-it3" onclick="scrolToTarget('.usesec')">Usage</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="hissec subsec">
+        <button style="cursor:default;" class="btll btll-it1">History</button>
+
+        <h1>History</h1>
+
+        <p style="text-align: justify;">CSS was first proposed by Håkon Wium Lie on October 10, 1994. At the time,
+            Lie
+            was working with Tim Berners-Lee at CERN. Several other style sheet languages for the web were proposed
+            around the same time, and discussions on public mailing lists and inside World Wide Web Consortium
+            resulted
+            in the first W3C CSS Recommendation, a "testbed" draft, in 1996. Lie designed the syntax of CSS,
+            influenced
+            by the existing syntax for Standard Generalized Markup Language (SGML), which is the parent language of
+            HTML.</p>
+        <p style="text-align: justify;">The first CSS specification was developed by Håkon Wium Lie and Bert Bos.
+            Håkon
+            Wium Lie was also the first person to implement CSS, and with Bert Bos, he proposed the first version of
+            CSS
+            in 1994. Lie and Bos were the co-authors of the original CSS specification, and working together with
+            the
+            W3C, they also introduced the first version of the CSS Recommendation in 1996.</p>
+        <div class="relimg">
+            <img style="width: 100%;" src="/partials/images/sub-images/CSS-Released-year.png"
+                alt="CSS Released Versions">
+        </div>
+    </section>
+
+    <section class="devsec subsec">
+        <div class="btll btll-it2">Development</div>
+
+        <h1>Development</h1>
+
+        <div class="exsec">
+            <div class="extxt" style="width: 100%;">
+                <div
+                    style="width: 30%; float: left; box-shadow: 2px 2px 10px; margin: 10px 15px 0 0; min-width: 200px; line-height: 0;">
+                    <img style="width: 100%;" src="/partials/images/sub-images/CSS-development.png"
+                        alt="CSS Development photo">
+                </div>
+                <p style="text-align: justify; margin-bottom: 10px;">CSS was first proposed by Håkon Wium Lie on
+                    October
+                    10, 1994. At the
+                    time,
+                    Lie
+                    was working with Tim Berners-Lee at CERN. Several other style sheet languages for the web were
+                    proposed
+                    around the same time, and discussions on public mailing lists and inside World Wide Web
+                    Consortium
+                    resulted
+                    in the first W3C CSS Recommendation, a "testbed" draft, in 1996. Lie designed the syntax of CSS,
+                    influenced
+                    by the existing syntax for Standard Generalized Markup Language (SGML), which is the parent
+                    language
+                    of
+                    HTML.</p>
+
+                <p style="text-align: justify; margin-top: 20px;">The first CSS specification was developed by Håkon
+                    Wium Lie and Bert
+                    Bos.
+                    Håkon
+                    Wium Lie was also the first person to implement CSS, and with Bert Bos, he proposed the first
+                    version of
+                    CSS
+                    in 1994. Lie and Bos were the co-authors of the original CSS specification, and working together
+                    with
+                    the
+                    W3C, they also introduced the first version of the CSS Recommendation in 1996.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="usesec subsec">
+        <div class="btll btll-it3">Usage</div>
+
+        <h1>Usage</h1>
+
+        <p style="text-align: justify;">CSS is designed primarily to enable the separation of document content from
+            document presentation, including elements such as the layout, colors, and fonts. This separation can
+            improve
+            content accessibility, provide more flexibility and control in the specification of presentation
+            characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a
+            separate
+            .css file, and reduce complexity and repetition in the structural content.</p>
+        <p style="text-align: justify;">Separation of formatting and content makes it possible to present the same
+            markup
+            page in different styles for different rendering methods, such as on-screen, in print, by voice (via
+            speech-based browser or screen reader), and on Braille-based tactile devices. It can also display the
+            web
+            page differently depending on the screen size or device on which it is being viewed. Users can also
+            specify
+            a different style sheet, such as a CSS file stored on their own computer, to override the one the author
+            specified.</p>
+        <p style="text-align: justify;">CSS specifies a priority scheme to determine which style rules apply if more
+            than
+            one rule matches against a particular element. In this so-called cascade, priorities or weights are
+            calculated and assigned to rules, so that the results are predictable.</p>
+        <p style="text-align: justify;">The CSS specifications are maintained by the World Wide Web Consortium
+            (W3C).
+            Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The
+            W3C
+            operates a free CSS validation service for CSS documents.</p>
+        <p style="text-align: justify;">In addition to HTML, other markup languages support the use of CSS including
+            XHTML, plain XML, SVG, and XUL.</p>
+    </section>
+
+    <footer class="footer">
+
+
+        <div class="footer-div">
+            <ul>
+                <li>
+                    <h3>Quick Links</h3>
+                </li>
+                <li><a href="/html.html">HTML</a></li>
+                <li><a href="/python.html">Python</a></li>
+                <li><a href="/css.html">CSS</a></li>
+                <li><a href="/js.html">JS</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Contact</h3>
+                </li>
+                <li><a href="myemail@yahoo.com">myemail@yahoo.com</a></li>
+                <li>+44 123 456 78 90</li>
+                <li><a href="https://maps.app.goo.gl/zPcSKr7tnk2hKVMC9">AA00AA</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copyr">
+        <p>© 2024 All Rights Reserved to Payam Ghanbari</p>
+
+        <div class="totop"> Top ↑ </div>
+
+</body>
+
+<script src="myscripts.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    function scrolToTarget(target) {
+        var position = $(target).offset().top - 80;
+        window.scrollTo({ top: position, behavior: 'smooth' })
+    }
+
+    $('.totop').addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+</script>
+
+</html>

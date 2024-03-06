@@ -1,0 +1,85 @@
+
+.navbar {
+    min-width: 1000px;
+    background-color: rgb(4, 0, 60);
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-ul {
+    width: 80%;
+    margin-left: 20%;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+
+.navbar-ulli {
+    background-color: rgb(4, 0, 60);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    text-align: center;
+    height: 70px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-ulli:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(4, 0, 60);
+}
+
+.search-box {
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.search-box button {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(4, 0, 60);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.search-box button:hover {
+    background-color: white;
+    color: rgb(4, 0, 60);
+}
+
+.srcinput {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
