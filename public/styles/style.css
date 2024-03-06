@@ -59,23 +59,23 @@
 }
 .hebx-it1 {
     background-color: rgba(172, 229, 255, 0.8);
-    background-image: url('/partials/images/header-images/css-img.png');
+    background-image: url('payam1904/060324-Project/partials/images/header-images/css-img.png');
 }
 .hebx-it2 {
     background-color: rgba(255, 227, 156, 0.8);
-    background-image: url('/partials/images/header-images/html-img.png');
+    background-image: url('partials/images/header-images/html-img.png');
 }
 .hebx-it3 {
     background-color: rgba(183, 255, 229, 0.8);
-    background-image: url('/partials/images/header-images/python-img.png');
+    background-image: url('partials/images/header-images/python-img.png');
 }
 .hebx-it4 {
     background-color: rgba(233, 255, 229, 0.8);
-    background-image: url('/partials/images/header-images/js-img2.png');
+    background-image: url('partials/images/header-images/js-img2.png');
 }
 
 .hebx-pph {
-    background-image: url('/partials/images/header-images/me.png');
+    background-image: url('partials/images/header-images/me.png');
     background-color: rgb(215, 215, 215);
     background-size: cover;
     width: 300px;
