@@ -198,15 +198,16 @@
 <script src="myscripts.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script>
-    function scrolToTarget(target) {
-        var position = $(target).offset().top - 80;
-        window.scrollTo({ top: position, behavior: 'smooth' })
-    }
+    $(document).ready(function() {
+        function scrollToTarget(target) {
+            var position = $(target).offset().top - 80;
+            window.scrollTo({ top: position, behavior: 'smooth' });
+        }
 
-    $('.totop').click(function () {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        $('.totop').click(function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
     });
-
 </script>
 
 </html>
